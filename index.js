@@ -1,0 +1,8 @@
+require('./src/webrequest-on-before-request')
+require('./src/webrequest-on-before-redirect')
+require('./src/webrequest-on-before-send-headers')
+require('./src/webrequest-on-completed')
+require('./src/webrequest-on-error-occurred')
+require('./src/webrequest-on-headers-received')
+require('./src/webrequest-on-send-headers')
+require('./src/webrequest-on-response-started')
