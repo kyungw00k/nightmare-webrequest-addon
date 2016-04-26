@@ -36,7 +36,7 @@ describe('onBeforeSendHeaders', function () {
     require('../src/webrequest-on-before-send-headers')
     require('../src/webrequest-on-send-headers')
 
-    server = require('./server').listen(7500, done)
+    server = require('./server').listen(7500, 'localhost', done)
   })
 
   beforeEach(function () {

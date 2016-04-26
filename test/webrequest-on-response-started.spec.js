@@ -34,7 +34,7 @@ describe('onResponseStarted', function () {
 
   before(function (done) {
     require('../src/webrequest-on-response-started')
-    server = require('./server').listen(7500, done)
+    server = require('./server').listen(7500, 'localhost', done)
   })
 
   beforeEach(function () {

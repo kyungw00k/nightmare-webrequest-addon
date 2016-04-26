@@ -34,7 +34,7 @@ describe('onHeadersReceived', function () {
 
   before(function (done) {
     require('../src/webrequest-on-headers-received')
-    server = require('./server').listen(7500, done)
+    server = require('./server').listen(7500, 'localhost', done)
   })
 
   beforeEach(function () {

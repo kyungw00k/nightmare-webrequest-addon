@@ -35,7 +35,7 @@ describe('onBeforeRedirect', function () {
   before(function (done) {
     require('../src/webrequest-on-before-request')
     require('../src/webrequest-on-before-redirect')
-    server = require('./server').listen(7500, done)
+    server = require('./server').listen(7500, 'localhost', done)
   })
 
   beforeEach(function () {

@@ -34,7 +34,7 @@ describe('onBeforeRequest', function () {
   before(function (done) {
     require('../src/webrequest-on-before-request')
 
-    server = require('./server').listen(7500, done)
+    server = require('./server').listen(7500, 'localhost', done)
   })
 
   beforeEach(function () {
