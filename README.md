@@ -1,5 +1,5 @@
 # nightmare-webrequest-addon 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![npm version](https://badge.fury.io/js/nightmare-webrequest-addon.svg)](http://badge.fury.io/js/nightmare-webrequest-addon) ![](https://travis-ci.org/kyungw00k/nightmare-webrequest-addon.svg) 
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![npm version](https://badge.fury.io/js/nightmare-webrequest-addon.svg)](http://badge.fury.io/js/nightmare-webrequest-addon) [![travis-ci](https://travis-ci.org/kyungw00k/nightmare-webrequest-addon.svg)](https://travis-ci.org/kyungw00k/nightmare-webrequest-addon/)
 > The `webRequest` API set allows to intercept and modify contents of a request at various stages of its lifetime.
 > (from https://github.com/electron/electron/blob/master/docs/api/session.md#seswebrequest)
 
