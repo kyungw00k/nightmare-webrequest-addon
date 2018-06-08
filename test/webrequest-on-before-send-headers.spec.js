@@ -143,10 +143,7 @@ describe('onBeforeSendHeaders', function () {
   })
 
   afterEach(function * () {
-    nightmare.child.removeAllListeners('onBeforeSendHeaders')
     nightmare.onBeforeSendHeaders(null)
-
-    nightmare.child.removeAllListeners('onSendHeaders')
     nightmare.onSendHeaders(null)
 
     yield nightmare.end()

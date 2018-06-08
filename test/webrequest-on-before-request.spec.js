@@ -174,10 +174,10 @@ describe('onBeforeRequest', function () {
     result.url.should.equal(result.url, 'http://localhost:7500/')
     result.method.should.equal(result.method, 'POST')
     result.resourceType.should.equal(result.resourceType, 'xhr')
-    qs.parse(new Buffer(result.uploadData[0].bytes.data).toString()).should.deep.equals({
-      name: 'post test',
+
+    JSON.stringify(qs.parse(new Buffer(result.uploadData[0].bytes.data).toString())).should.equals(JSON.stringify({ name: 'post test',
       type: 'string'
-    })
+    }))
   })
 
   it('can redirect the request', function * () {
@@ -216,7 +216,6 @@ describe('onBeforeRequest', function () {
   })
 
   afterEach(function * () {
-    nightmare.child.removeAllListeners('onBeforeRequest')
     nightmare.onBeforeRequest(null)
 
     yield nightmare.end()

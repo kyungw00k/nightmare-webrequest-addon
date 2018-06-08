@@ -78,10 +78,7 @@ describe('onBeforeRedirect', function () {
   })
 
   afterEach(function * () {
-    nightmare.child.removeAllListeners('onBeforeRequest')
     nightmare.onBeforeRequest(null)
-
-    nightmare.child.removeAllListeners('onBeforeRedirect')
     nightmare.onBeforeRedirect(null)
 
     yield nightmare.end()

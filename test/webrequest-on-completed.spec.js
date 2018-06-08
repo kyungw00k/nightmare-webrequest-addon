@@ -66,7 +66,6 @@ describe('onCompleted', function () {
   })
 
   afterEach(function * () {
-    nightmare.child.removeAllListeners('onCompleted')
     nightmare.onCompleted(null)
 
     yield nightmare.end()
