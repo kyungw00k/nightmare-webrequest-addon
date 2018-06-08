@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/kyungw00k/nightmare-webrequest-addon#readme",
   "dependencies": {
-    "nightmare": "^2.3.4"
+    "nightmare": "^3.0.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "mocha-generators": "^1.2.0",
-    "serve-static": "^1.10.2"
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mocha-generators": "^2.0.0",
+    "serve-static": "^1.13.2"
   }
 }
