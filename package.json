@@ -1,6 +1,6 @@
 {
   "name": "nightmare-webrequest-addon",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "webRequest API addon",
   "main": "nightmare-webrequest-addon.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/kyungw00k/nightmare-webrequest-addon#readme",
   "dependencies": {
-    "nightmare": "^3.0.1"
+    "nightmare": "^2.3.4 || ^3.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
